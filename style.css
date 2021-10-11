@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif;
+}
+
+body{
+    background-color: #161923;
+} 
+
+.menu {
+    padding-top: 30px;
+    text-align: left;
+  }
+  
+  .menu a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 32px;
+    transition: 0.3s;
+  }
+
+  .menu:hover {
+    opacity: 0.8;
+  }
+
+.menu img{
+width:36px;
+  float: right;
+  margin-right:16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    float: right;
+    margin-top: 32px;
+}
+
+form h2{
+    color: orange;
+    padding: 16px;
+}
+
+input#nome{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 250px;
+    border: 0;
+}
+
+input#email{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 250px;
+    border: 0;
+}
+
+input#data{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 250px;
+    border: 0;
+}
+
+select#escritorio{
+    border: 0;
+    width: 250px;
+    padding:12px;
+}
+
+select#estacao{
+    border: 0;
+    width: 250px;
+    padding: 12px;
+}
+
+input#enviar{
+    border-color: white;
+    width: 250px;
+    cursor: pointer;
+    background:orange;
+    font-size: 18px;
+    padding: 16px;
+    color: white;
+}
+
+.texto{
+  margin-top: 64px;
+  padding: 16px;
+  width: 300pxpx;
+}
+
+ .texto p {
+      color: white;
+  }
+
+.texto h1{
+color: white;
+}
+ 
+ h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  color: orange;
+}
+
+.container {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+  }
+
+.info1 {
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    padding: 16px;
+  color: white;
+  }
+  
+  .info2 {
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    padding: 16px;
+    color: white;
+  }
+  
+  .info3 {
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    padding: 16px;
+    color: white;
+  }
+  
+  .info4 {
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    padding: 16px;
+    color: white;
+  }
+  
+  .info5 {
+    background-color: orange;
+    border-radius: 20px;
+    width: 200px;
+    padding: 16px;
+    color: white;
+  }
